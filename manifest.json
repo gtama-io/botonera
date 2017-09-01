@@ -1,0 +1,15 @@
+{
+  "name": "La Botonera de Anibal",
+  "short_name": "La Botonera de Anibal",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "La Botonera de Anibal",
+  "icons": [{
+    "src": "assets/img/button.png",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "web"
+  }]
+}
