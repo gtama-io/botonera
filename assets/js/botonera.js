@@ -2,7 +2,6 @@ const sounds = document.querySelectorAll('[data-mp3]');
 let audio = undefined;
 
 console.log(sounds);
-console.log(audios);
 
 for (var i = 0; i < sounds.length; i++) {
     var element = sounds[i];
