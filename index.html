@@ -48,6 +48,17 @@
         </div>
     </section>
     <script src="assets/js/botonera.js"></script>
+
+    <script>
+        
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('sw.js')
+            .catch(function (err) {
+              console.error('Unable to register service worker.', err);
+            });
+        }
+        
+    </script>
 </body>
 
 </html>
